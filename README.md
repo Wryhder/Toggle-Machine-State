@@ -1,23 +1,8 @@
 # Toggle Machine State
 
-This is a simple little project that just aims to change the text content of a button. The JavaScript source looks like:
+This is a simple little project that just aims to change the text content of a button.
 
-```
-const btn = document.querySelector('.off');
-
-const MACHINE_STATE = {
-    0: "Machine is off",
-    1: "Machine is on"
-};
-
-function toggleButtonText(text) {
-    btn.textContent = text;
-}
-
-btn.addEventListener('click', function () {
-    btn.textContent === MACHINE_STATE[0] ? toggleButtonText(MACHINE_STATE[1]) : toggleButtonText(MACHINE_STATE[0]);
-});
-```
+-----
 
 ### A little background
 
