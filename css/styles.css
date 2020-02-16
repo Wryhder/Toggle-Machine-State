@@ -10,3 +10,7 @@ main {
 	align-items: center;
 	height: inherit;
 }
+
+button {
+	padding: 1em;
+}
