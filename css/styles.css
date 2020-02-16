@@ -12,5 +12,33 @@ main {
 }
 
 button {
+	color: white;
 	padding: 1em;
+	border: none;
+	border-radius:8px;
+	font-size:20px;
+	font-weight:bold;
+	cursor:pointer;
+	box-shadow: 0px 10px 14px -7px #276873;
 }
+
+button.off {
+	background:linear-gradient(to bottom, #b3596f 5%, #7a1022 100%);
+	background-color:#b3596f;
+}
+
+button.off:hover {
+	background:linear-gradient(to bottom, #7a1022 5%, #b3596f 100%);
+	background-color:#7a1022;
+}
+
+button.on {
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+}
+
+button.on:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+
