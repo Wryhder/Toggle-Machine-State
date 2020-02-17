@@ -2,6 +2,7 @@
 
 This is a simple little project that just aims to change the text content of a button (but it's been getting progressively sillier).
 
+> Credits: The 3D solar system in the background is [Julian Garnier's](https://codepen.io/juliangarnier/pen/idhuG).
 -----
 
 ### A little background
